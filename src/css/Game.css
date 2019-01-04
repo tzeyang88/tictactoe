@@ -1,0 +1,55 @@
+body {
+  font-family: Helvetica, sans-seriff;
+  font-size: 10px;
+}
+
+.square {
+  border: 1px solid black;
+  background: white;
+  width: 34px;
+  height: 34px;
+  float: left;
+  margin-left: -1px;
+  margin-top: -1px;
+  text-align: center;
+  padding: 0;
+  line-height: 34px;
+  cursor: pointer;
+}
+
+button, .square:focus {
+  outline: none;
+}
+
+.board-row {
+  content: "";
+  clear: both;
+  display: table;
+  display: block;
+}
+
+.input {
+  color: black;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.game {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+
+.status {
+  margin: 9px 0;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.btn {
+  border: 1px solid black;
+  width: 9em;
+  padding: 0.75em;
+  letter-spacing: 1px;
+  margin-top: -1px 
+}
